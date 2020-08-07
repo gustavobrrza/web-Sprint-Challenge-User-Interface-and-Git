@@ -147,6 +147,14 @@ h5 {
   margin-bottom: 15px;
   font-family: "Rubik", sans-serif;
 }
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
 .jumbo {
   border-radius: 30%;
   display: flex;
@@ -334,4 +342,9 @@ footer nav {
 footer nav a {
   color: white;
   text-decoration: none;
+}
+.button {
+  padding: 2%;
+  background-color: white;
+  color: black;
 }
